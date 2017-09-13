@@ -5,11 +5,7 @@
   "homepage": "http://ionicframework.com/",
   "private": true,
   "scripts": {
-    "clean": "ionic-app-scripts clean",
-    "build": "ionic-app-scripts build",
-    "lint": "ionic-app-scripts lint",
-    "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "start": "ionic cordova emulate ios --target=\"iPhone-6s\" --livereload --debug --consolelogs"
   },
   "dependencies": {
     "@angular/common": "4.1.3",
